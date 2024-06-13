@@ -24,7 +24,7 @@ jobs:
         env:
           # auto set by GitHub, details in
           # https://docs.github.com/en/actions/security-guides/automatic-token-authentication
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           WHITELIST: ${{ secrets.WHITELIST }}

@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          ref: 'fix/promise-error'  # Specify the branch name you want to use
       - name: Setup Deno
         uses: denoland/setup-deno@v1
         with:
